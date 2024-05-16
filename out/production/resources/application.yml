@@ -8,6 +8,16 @@ spring:
   h2:
     console:
       enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test-id
+            client-secret: test-secret
+            scope:
+              - email
+              - profile
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test-key
