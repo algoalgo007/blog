@@ -13,11 +13,11 @@ spring:
       client:
         registration:
           google:
-            client-id: 6
-            client-secret: G
+            client-id: test-id
+            client-secret: test-secret
             scope:
               - email
               - profile
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test-secretkey
